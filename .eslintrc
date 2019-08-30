@@ -1,0 +1,42 @@
+{
+  "globals": {},
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "2018",
+    "sourceType": "module",
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "no-console": "off",
+    "eqeqeq": "error",
+    "curly": "error",
+    "indent": [
+      "error",
+      "tab"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-alert": "error",
+    "no-eval": "error",
+    "no-trailing-spaces": "warn",
+    "max-depth": [
+      2,
+      4
+    ],
+    "max-nested-callbacks": [
+      2,
+      4
+    ]
+  }
+}
