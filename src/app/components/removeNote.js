@@ -34,6 +34,9 @@ function remove (id) {
 
 		storage.noteList.splice(removeIndex, 1);
 
+		storage.currentNoteList = storage.noteList;
+
+		publish('CLEAR_SEARCH');
 		publish('UPDADTE_LIST');
 
 		set('notes', {data: storage.noteList});
