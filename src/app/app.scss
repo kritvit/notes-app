@@ -1,0 +1,17 @@
+
+.app {
+	display: flex;
+	height: 100vh;
+}
+
+.app__sidebar {
+	background-color: $color-sidebar-medium;
+}
+
+.app__header {
+	padding: .5rem 0;
+}
+
+.app__main {
+	flex-grow: 1;
+}

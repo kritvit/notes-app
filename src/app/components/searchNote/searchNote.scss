@@ -1,0 +1,11 @@
+
+.search-note {
+	display: inline-block;
+
+	input {
+		font-size: .8rem;
+		width: 10rem;
+		color: $color-text;
+		background-color: $color-sidebar-medium;
+	}
+}

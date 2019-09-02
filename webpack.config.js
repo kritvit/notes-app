@@ -59,7 +59,8 @@ module.exports = {
 		alias: {
 			App: 		path.resolve(__dirname, 'src/app'),
 			Components: path.resolve(__dirname, 'src/app/components'),
-			Utils: 		path.resolve(__dirname, 'src/app/utils')
+			Scripts: 		path.resolve(__dirname, 'src/app/common/scripts'),
+			Styles: 		path.resolve(__dirname, 'src/app/common/styles')
 		},
 		extensions: ['.js']
 	},

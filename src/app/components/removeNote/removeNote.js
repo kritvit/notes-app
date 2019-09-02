@@ -1,11 +1,11 @@
 
-import Component from 'Utils/Component';
+import Component from 'Scripts/Component';
 
-import helpers from 'Utils/helpers';
+import helpers from 'Scripts/helpers';
 
-import { publish } from 'Utils/pubsub';
+import { publish } from 'Scripts/pubsub';
 
-import { storage, set } from 'Utils/storage';
+import { storage, set } from 'Scripts/storage';
 
 function remove (id) {
 

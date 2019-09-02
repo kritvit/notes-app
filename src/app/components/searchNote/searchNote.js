@@ -1,9 +1,9 @@
 
-import Component from 'Utils/Component';
+import Component from 'Scripts/Component';
 
-import { publish, subscribe } from 'Utils/pubsub';
+import { publish, subscribe } from 'Scripts/pubsub';
 
-import { storage } from 'Utils/storage';
+import { storage } from 'Scripts/storage';
 
 function search (event) {
 

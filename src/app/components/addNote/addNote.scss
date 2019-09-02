@@ -1,0 +1,10 @@
+
+.add-note {
+	display: inline-block;
+	opacity: .8;
+	transition: opacity .125s ease-in-out;
+
+	&:hover {
+		opacity: 1;
+	}
+}

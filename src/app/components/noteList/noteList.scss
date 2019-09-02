@@ -1,0 +1,25 @@
+
+.note-list {
+	&__item {
+		white-space: nowrap;
+		opacity: .8;
+		transition: opacity .125s ease-in-out;
+
+		input {
+			font-size: .8rem;
+			width: 10rem;
+			display: inline-block;
+			color: $color-text;
+			font-weight: 200;
+			background-color: $color-sidebar-medium;
+		}
+
+		&--current {
+			opacity: 1;
+
+			input {
+				font-weight: 400;
+			}
+		}
+	}
+}

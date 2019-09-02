@@ -1,5 +1,5 @@
 
-import helpers from 'Utils/helpers';
+import helpers from 'Scripts/helpers';
 
 const hasLocalStorage = helpers.hasLocalStorage();
 

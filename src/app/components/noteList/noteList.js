@@ -1,11 +1,11 @@
 
-import Component from 'Utils/Component';
+import Component from 'Scripts/Component';
 
-import removeNote from 'Components/removeNote';
+import removeNote from 'Components/removeNote/removeNote';
 
-import { publish, subscribe } from 'Utils/pubsub';
+import { publish, subscribe } from 'Scripts/pubsub';
 
-import { storage, set } from 'Utils/storage';
+import { storage, set } from 'Scripts/storage';
 
 function isCurrent (id) {
 

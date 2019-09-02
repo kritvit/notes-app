@@ -1,17 +1,17 @@
 
-import searchNote from 'Components/searchNote';
+import searchNote from 'Components/searchNote/searchNote';
 
-import noteList from 'Components/noteList';
+import noteList from 'Components/noteList/noteList';
 
-import addNote from 'Components/addNote';
+import addNote from 'Components/addNote/addNote';
 
-import noteDisplay from 'Components/noteDisplay';
+import noteDisplay from 'Components/noteDisplay/noteDisplay';
 
-import noteFooter from 'Components/noteFooter';
+import noteFooter from 'Components/noteFooter/noteFooter';
 
-import { get, storage } from 'Utils/storage';
+import { get, storage } from 'Scripts/storage';
 
-import { publish } from 'Utils/pubsub';
+import { publish } from 'Scripts/pubsub';
 
 get('notes').then(response => {
 
@@ -35,14 +35,14 @@ export default function App () {
 
 	return `
 		<div class="app">
-			<div class="global-sidebar">
-				<div class="global-header">
+			<div class="app__sidebar">
+				<div class="app__header">
 					${searchNote.html}
 					${addNote.html}
 				</div>
 				${noteList.html}
 			</div>
-			<div class="global-main">
+			<div class="app__main">
 				${noteDisplay.html}
 				${noteFooter.html}
 			</div>

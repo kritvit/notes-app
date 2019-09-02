@@ -1,11 +1,11 @@
 
-import Component from 'Utils/Component';
+import Component from 'Scripts/Component';
 
-import Note from 'Utils/Note';
+import Note from 'Scripts/Note';
 
-import { publish } from 'Utils/pubsub';
+import { publish } from 'Scripts/pubsub';
 
-import { storage, set } from 'Utils/storage';
+import { storage, set } from 'Scripts/storage';
 
 function addNote () {
 
